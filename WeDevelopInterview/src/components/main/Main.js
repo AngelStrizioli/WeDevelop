@@ -15,7 +15,6 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Main = () => {
   const styles = makeStyles();
-  const [task, setTask] = useState({});
   const [taskText, setTaskText] = useState();
   const [taskItems, setTaskItems] = useState([]);
   const [editTask, setEditTask] = useState();
@@ -37,7 +36,6 @@ const Main = () => {
         : setTaskItems([...taskItems, {id: id, text: taskText, done: false}]);
       editTask ? null : setId(id + 1);
       setTaskText(null);
-      setTask(null);
       Keyboard.dismiss();
       setEditTask(false);
     }

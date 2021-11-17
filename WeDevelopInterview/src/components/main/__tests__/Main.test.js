@@ -1,7 +1,7 @@
 import 'react-native';
 import React from 'react';
 import Main from '../Main';
-import {fireEvent, render, shallow} from '@testing-library/react-native';
+import {fireEvent, render} from '@testing-library/react-native';
 
 const makeInitialState = ({showTaskToDo}) => ({
   showTaskToDo: showTaskToDo,
