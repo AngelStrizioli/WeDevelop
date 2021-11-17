@@ -1,5 +1,5 @@
 # WeDevelop
-WeDevelop interview
+WeDevelop tech challenge
 
 ## To run the project:
   - cd WeDevelopInterview && run npm install
